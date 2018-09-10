@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D186A442-1700-4085-A42F-B2D9BE6D0AC4}</ProjectGuid>
+    <ProjectGuid>{61646790-EB30-436F-87F6-F61668285F2F}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App01_ConsultarCEP.iOS</RootNamespace>
+    <RootNamespace>App01_TipoPaginaXF.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>App01_ConsultarCEP.iOS</AssemblyName>
+    <AssemblyName>App01_TipoPaginaXF.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -147,16 +147,22 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.561731" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\App01_ConsultarCEP\App01_ConsultarCEP.csproj">
-      <Project>{88F79BBE-AED5-4548-A01C-0F808E33EAB1}</Project>
-      <Name>App01_ConsultarCEP</Name>
+    <ProjectReference Include="..\App01_TipoPaginaXF\App01_TipoPaginaXF.csproj">
+      <Project>{1A04B128-311B-4007-B74D-7E25C354232F}</Project>
+      <Name>App01_TipoPaginaXF</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Logo.png" />
+    <BundleResource Include="Resources\xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\play.png" />
   </ItemGroup>
 </Project>
